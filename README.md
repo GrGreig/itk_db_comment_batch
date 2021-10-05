@@ -47,7 +47,7 @@ The ```message``` must be a string surrounded by quotations.
 The example:
  
 ```
-python add_batch_comments.py --batches VPX34149, VPX34148 --date 16/07/2020  --message 'test comment'   
+python add_batch_comments.py --batches VPX34149, VPX34148 --date 16/07/2020  --message "test comment"   
 ```
 Would add the comment 'test comment' to all sensors from the batches VPX34149 and VPX34148 that arrived on 16/072020. 
   
@@ -56,5 +56,5 @@ Note, one can add '''--test''' to prevent the comment from being uploaded as a t
 ex.)
 
 ```
-python add_batch_comments.py --batches VPX34149, VPX34148 --date 16/07/2020  --message 'test comment' --test 
+python add_batch_comments.py --batches VPX34149, VPX34148 --date 16/07/2020  --message "test comment" --test 
 ```
