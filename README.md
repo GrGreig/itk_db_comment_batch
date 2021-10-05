@@ -15,12 +15,7 @@ This module depends on having an up to date inventory CSV file. This can be gene
 with the inventory2CSV.py script. This is done in the production_database_scipts folder with the command:
 
 ```
-python inventory2CSV.py --project S 
-                        --componentType SENSOR 
-                        --currentLocation <location> 
-                        --properties -1 
-                        --outfile <output_file_name>
-                        --write serialNumber
+python inventory2CSV.py --project S --componentType SENSOR --currentLocation <location> --properties -1 --outfile <output_file_name> --write serialNumber
  ```
 Where <output_file_name> is a choosen .csv file. For simplicity I use 'sensor_inventory.csv'. If you choose a different name, the following line
 must be changed in the script:
